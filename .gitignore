@@ -1,0 +1,26 @@
+# Профили и трейсы - их каждый снимает себе сам
+*.prof
+*.pprof
+*.pb.gz
+trace.out
+old.txt
+new.txt
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+
+# Бинарники из `go build` - имя берётся из go.mod
+/task01-cpu/pprof-task01
+/task02-memory/pprof-task02
+/task03-http-pprof/pprof-task03
+/task03-http-pprof/load
+/task04-goroutine-leak/pprof-task04
+/task05-contention/pprof-task05
+/task06-project/pprof-task06
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
